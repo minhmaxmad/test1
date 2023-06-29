@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="py-2 ">
+        <h1 class="border-2 border-black py-6 rounded-[4px] bg-[#BDBDBD] font-bold px-2 text-4xl">ADMIN</h1>
+        <br>
+        <div class="">
+            <ul class="flex border-2 border-black py-4 rounded-[4px] bg-black">
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105 border-r-2 active:text-green-300 ">
+                    <a href="#">Trang chủ</a>
+                </li>
+
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105 border-r-2 active:text-green-300 ">
+                    <a href="#">Danh mục</a>
+                </li>
+
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105 border-r-2 active:text-green-300 ">
+                    <a href="#">Hàng hóa</a>
+                </li>
+
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105 border-r-2 active:text-green-300 ">
+                    <a href="#">Khách hàng</a>
+                </li>
+
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105 border-r-2 active:text-green-300 ">
+                    <a href="#">Bình luận</a>
+                </li>
+
+                <li class="px-4 font-bold text-xl hover:text-white text-[#BDBDBD] hover:scale-105  active:text-green-300 ">
+                    <a href="#">Thống kê</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+<br>
+    <div class="">
+        <div class="border-2 border-black rounded-md py-2 bg-green-200">
+            <h1 class="px-2 font-bold ">THÊM MỚI HÀNG HÓA</h1>
+        </div>
+        <div class="px-4 py-2">
+            <form action="#" method="POST">
+                <div>
+                    <label for="">Mã Loại</label> <br>
+                    <input type="text" name="maloai" placeholder="auto number" disabled class="w-full font-bold bg-[#BDBDBD]">
+                </div>
+                <div>
+                    <label for="">Tên loại</label> <br>
+                    <input type="text" name="tenloai" class="bg-[#BDBDBD] w-full">
+                </div>
+                <br>
+                <div>
+                   <button><a href="#" class="text-white bg-[#BDBDBD] rounded-md py-2 px-2 font-bold hover:text-red-300 active:text-green-300 hover:scale-105" >Thêm mới</a></button>
+                   <button><a href="#" class="text-white bg-[#BDBDBD] rounded-md py-2 px-2 font-bold hover:text-red-300 active:text-green-300 hover:scale-105" >Nhập lại</a></button>
+                   <button><a href="./danhsach_loaihang.html" class="text-white bg-[#BDBDBD] rounded-md py-2 px-2 font-bold hover:text-red-300 active:text-green-300 hover:scale-105" >Danh sách</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
